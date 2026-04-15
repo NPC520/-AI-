@@ -1,0 +1,22 @@
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 数据文件（可选择性上传测试样例）
+data/raw_captures/*.pcap
+data/raw_captures/*.pcapng
+data/processed/
+data/reports/
+
+# 论文（通常单独存放，不传 GitHub）
+paper/
+
+# 系统文件
+.DS_Store
+Thumbs.db

