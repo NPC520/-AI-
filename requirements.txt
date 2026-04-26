@@ -48,6 +48,7 @@ packaging==26.0
 pandas==3.0.2
 pillow==12.2.0
 propcache==0.4.1
+scapy==2.5.0
 protobuf==7.34.1
 pyarrow==23.0.1
 pydantic==2.13.0
